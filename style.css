@@ -1,0 +1,71 @@
+tr {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+}
+input {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: larger;
+}
+body {
+    text-align: center;
+    background-color: #DCCCA3;
+    color: #524632;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page1 button, .page3 button {
+    border-radius: 20px;
+    background-color: #dcbea3;
+    padding: 5px;
+    margin: 5px;
+    max-width: fit-content;
+    justify-content: center;
+}
+.page1 button:hover, .page3 button:hover {
+    box-shadow: 2px 3px 3px #524632;
+}
+#big-red {
+    margin: auto;
+    background-color: red;
+    text-decoration: none;
+    cursor: default;
+    color: white;
+    font-weight: bolder;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    font-family: Avenir, Arial, sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 90px;
+
+}
+#big-red:hover {
+    box-shadow: 2px 3px 3px darkred;
+}
+#dinos {
+    width: 100%;
+    height: 90%;
+    margin: auto;
+}
+#dino-click {
+    position: absolute;
+    width: 17em;
+    height: 17em;
+    margin-right: 20%;
+    margin-bottom: 37%;
+    background-color: transparent;
+    color: transparent;
+    border: transparent;
+}
+.gif {
+    border: 3px solid #524632;
+
+}
